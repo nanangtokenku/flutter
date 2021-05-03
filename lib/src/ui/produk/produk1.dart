@@ -6,7 +6,7 @@ class Produk1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Produk"),
+        title: Text("Prepaid"),
       ),
       body: Center(
         child: ElevatedButton(
