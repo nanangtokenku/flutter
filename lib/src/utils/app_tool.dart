@@ -3,13 +3,13 @@ import 'package:url_launcher/url_launcher.dart';
 
 import 'keys.dart';
 
-showSnackbar(GlobalKey<ScaffoldState> scaffoldState, String message,
-    {MaterialColor materialColor}) {
-  if (message.isEmpty) return;
-  // Find the Scaffold in the Widget tree and use it to show a SnackBar
-  scaffoldState.currentState.showSnackBar(
-      SnackBar(content: Text(message), backgroundColor: materialColor));
-}
+// showSnackbar(GlobalKey<ScaffoldState> scaffoldState, String message,
+//     {MaterialColor materialColor}) {
+//   if (message.isEmpty) return;
+//   // Find the Scaffold in the Widget tree and use it to show a SnackBar
+//   scaffoldState.currentState.showSnackBar(
+//       SnackBar(content: Text(message), backgroundColor: materialColor));
+// }
 
 launchURL(String url) async {
   if (url.isEmpty) return;

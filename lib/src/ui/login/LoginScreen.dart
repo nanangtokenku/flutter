@@ -79,13 +79,13 @@ class LoginScreenState extends State<LoginScreen> with ValidationMixin {
       ),
     );
 
-    final forgotLabel = FlatButton(
-      child: Text(
-        'Forgot Password',
-        style: TextStyle(color: Colors.black54),
-      ),
-      onPressed: () {},
-    );
+    // final forgotLabel = FlatButton(
+    //   child: Text(
+    //     'Forgot Password',
+    //     style: TextStyle(color: Colors.black54),
+    //   ),
+    //   onPressed: () {},
+    // );
 
     return Scaffold(
       backgroundColor: Colors.white,
@@ -101,7 +101,7 @@ class LoginScreenState extends State<LoginScreen> with ValidationMixin {
             password,
             SizedBox(height: 24.0),
             loginButton,
-            forgotLabel
+            //forgotLabel
           ],
         ),
       ),
